@@ -7,13 +7,13 @@ def bubble_sort(arr):
       if(arr[j]>arr[j+1]):
         arr[j],arr[j+1]=arr[j+1],arr[j]
   return arr
-arr=[5,3,8,6,7,2]
+arr=[5,3,8,6,7,1,2]
 print("The Unsorted Array is:",arr)
 print("The Sorted Array is:",bubble_sort(arr))
 
 
 ''''
 Output:
-The Unsorted Array is: [5, 3, 8, 6, 7, 2]
-The Sorted Array is: [2, 3, 5, 6, 7, 8]
+The Unsorted Array is: [5, 3, 8, 6, 7, 1,2]
+The Sorted Array is: [1,2, 3, 5, 6, 7, 8]
 '''
